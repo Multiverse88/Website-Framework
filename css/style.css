@@ -20,20 +20,20 @@ body {
   position: absolute;
   width: 688px;
   height: 198px;
-  left: 84px;
+  left: 65px;
   top: 230px;
 }
 .vector1 {
   position: absolute;
   left: 769px;
   right: 0%;
-  top: -0.59%;
+  top: 0%;
   bottom: 28.71%;
 }
 .vector2 {
   position: absolute;
   left: 291px;
-  right: -1.39%;
+  right: 0%;
   top: 0%;
   bottom: 0%;
 }
@@ -69,7 +69,49 @@ body {
   text-align: center;
   transition: 300ms;
 }
-
+.btn a {
+  text-decoration: none;
+  color: black;
+}
 .btn:hover {
+  transform: translateY(-10px);
+}
+
+.facebook-btn img {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 350px;
+  top: 520px;
+  transition: 300ms;
+}
+
+.instagram-btn img {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 520px;
+  left: 280px;
+  transition: 300ms;
+}
+
+.maps-btn img {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 520px;
+  left: 421px;
+  transition: 300ms;
+}
+
+.facebook-btn img:hover {
+  transform: translateY(-10px);
+}
+
+.instagram-btn img:hover {
+  transform: translateY(-10px);
+}
+
+.maps-btn img:hover {
   transform: translateY(-10px);
 }

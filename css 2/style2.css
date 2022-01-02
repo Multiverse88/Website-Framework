@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #b7682e;
+  font-family: "Lora", serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+}
+.card {
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+
+.card-body {
+  border-radius: 5px;
+}
+.btn {
+  background-color: #be8126;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.contact {
+  background-color: #ffe5be;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: burlywood;
+}
