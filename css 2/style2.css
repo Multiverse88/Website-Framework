@@ -1,14 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
 body {
   background-color: #b7682e;
   font-family: "Lora", serif;
 }
 
-.jumbotron {
-  padding-top: 6rem;
-}
 .card {
   border-radius: 30px;
   margin-bottom: 40px;
@@ -19,8 +13,11 @@ body {
 }
 .btn {
   background-color: #be8126;
+  transition: 300ms;
 }
-
+.btn:hover {
+  transform: translateY(-10px);
+}
 iframe {
   border-radius: 20px;
 }
@@ -31,8 +28,4 @@ iframe {
 
 footer a {
   text-decoration: none;
-}
-
-.card {
-  box-shadow: burlywood;
 }
